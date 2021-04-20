@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<table class="calculatrice"> 
+    <tr> 
+       <td colspan="4" class="calc_td_result"><input class="calcul_result" id="output"/></td> 
+    </tr> 
+    <tr>  
+      <td class="calc_td_btn"><button class="calc_calculs" onclick="afficher('+')">+</button></td> 
+      <td class="calc_td_btn"><button class="calc_calculs" onclick="afficher('-')">-</button></td>
+      <td class="calc_td_btn"><button class="calc_calculs" onclick="afficher('*')">×</button></td>
+      <td class="calc_td_btn"><button class="calc_calculs"  onclick="afficher('/')">÷</button></td>
+   </tr>
+   <tr> 
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('7')">7</button></td> 
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('8')">8</button></td> 
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('9')">9</button></td>
+      <td class="calc_td_btn" rowspan="4"><button class="calc_btn_equal" onclick="calculer()">=</button></td> 
+   </tr> 
+   <tr>  
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('4')">4</button></td> 
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('5')">5</button></td> 
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('6')">6</button></td>  
+   </tr>
+       <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('1')">1</button></td> 
+       <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('2')">2</button></td> 
+       <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('3')">3</button></td> 
+    </tr> 
+    <tr>
+      <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('0')">0</button></td> 
+       <td class="calc_td_btn"><button class="calc_btn" onclick="afficher('.')">.</button></td> 
+       <td class="calc_td_btn"><button class="calc_btn_clear" onclick="effacer()">AC</button></td> 
+    </tr> 
+ </table> 
+ <script type="text/javascript">
+    document.getElementById('calc').onload=initialiser_calc('calc');
+</script>
+<script src="js/app.js"></script>
+</body> 
+</html>

@@ -1,0 +1,121 @@
+.calculatrice {
+    height: 450px;
+    width: 400px;
+    background-color: #eeeeee;
+    border: 2px solid #CCCCCC;
+    border-collapse: collapse;
+    margin: 35px;
+    padding: 0 10px 10px 10px;    
+}
+
+.calculatrice td{
+    height:16%;
+    padding:2%;
+}
+
+.calc_td_result{
+    width: 100%;
+    border: none !important;
+    padding: 0 0 2% 0 !important;
+}
+
+.calcul_result{
+    width:100%;
+    height: 100%;
+    text-align:right;
+    appearance: none;
+    color: white;
+    background: black;
+    font-size: 40px;
+    border: none !important;
+}
+
+.calc_td_btn{
+    width:25%;
+    height:100%;
+}
+
+.calc_calculs{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    background-image:linear-gradient(white, #CCCCCC);
+    appearance: none;
+    border: 0.5px solid #a0a0a0;
+    border-radius: 5%;
+    color: #2e86c0;
+}
+
+.calc_calculs:hover{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    background: #bbbbbb;
+    appearance: none;
+    border: 1.8px dotted grey;
+    color: #2e86c0;
+}
+
+.calc_btn{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    background-image:linear-gradient(white, #CCCCCC);
+    appearance: none;
+    border: 0.5px solid #a0a0a0;
+    border-radius: 5%;
+}
+
+.calc_btn:hover{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    background: #bbbbbb;
+    appearance: none;
+    border: 1.8px dotted grey;
+    border-radius: 5%;
+}
+
+.calc_btn_equal{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    appearance: none;
+    border: 0.5px solid #a0a0a0;
+    border-radius: 3%;
+    color: white;
+    background: #2e86c0;
+}
+
+.calc_btn_equal:hover{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    appearance: none;
+    border: 1.8px dotted grey;
+    border-radius: 3%;
+    color: white;
+    background: #186396;
+}
+
+.calc_btn_clear{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    appearance: none;
+    border: 0.5px solid #a0a0a0;
+    border-radius: 5%;
+    color: white;
+    background: #f0595f;
+}
+
+.calc_btn_clear:hover{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    appearance: none;
+    border: 1.8px dotted grey;
+    border-radius: 5%;
+    color: white;
+    background: #db3d42;
+}
