@@ -1,8 +1,8 @@
 .calculatrice {
     height: 450px;
     width: 400px;
-    background-color: #b71a1a;
-    border: 2px solid #4297d3;
+    background-color: #2177c7;
+    border: 2px solid #c2d214;
     border-collapse: collapse;
     margin: 35px;
     padding: 0 10px 10px 10px;    
@@ -25,7 +25,7 @@
     text-align:right;
     appearance: none;
     color: white;
-    background: black;
+    background: rgb(213, 10, 10);
     font-size: 40px;
     border: none !important;
 }
@@ -53,7 +53,7 @@
     background: #bbbbbb;
     appearance: none;
     border: 1.8px dotted grey;
-    color: #2e86c0;
+    color: #062234;
 }
 
 .calc_btn{
@@ -116,6 +116,6 @@
     appearance: none;
     border: 1.8px dotted grey;
     border-radius: 5%;
-    color: white;
-    background: #db3d42;
+    color: rgb(85, 34, 34);
+    background: #b72967;
 }
