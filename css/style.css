@@ -1,8 +1,8 @@
 .calculatrice {
     height: 450px;
     width: 400px;
-    background-color: #eeeeee;
-    border: 2px solid #CCCCCC;
+    background-color: #b71a1a;
+    border: 2px solid #4297d3;
     border-collapse: collapse;
     margin: 35px;
     padding: 0 10px 10px 10px;    
@@ -14,13 +14,13 @@
 }
 
 .calc_td_result{
-    width: 100%;
+    width: 120%;
     border: none !important;
     padding: 0 0 2% 0 !important;
 }
 
 .calcul_result{
-    width:100%;
+    width: 120px;
     height: 100%;
     text-align:right;
     appearance: none;
@@ -47,7 +47,7 @@
 }
 
 .calc_calculs:hover{
-    width:100%;
+    width:90%;
     height:100%;
     font-size:20px;
     background: #bbbbbb;
