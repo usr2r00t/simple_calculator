@@ -1,8 +1,8 @@
 .calculatrice {
     height: 450px;
     width: 400px;
-    background-color: #eeeeee;
-    border: 2px solid #CCCCCC;
+    background-color: #2177c7;
+    border: 2px solid #c2d214;
     border-collapse: collapse;
     margin: 35px;
     padding: 0 10px 10px 10px;    
@@ -14,18 +14,18 @@
 }
 
 .calc_td_result{
-    width: 100%;
+    width: 120%;
     border: none !important;
     padding: 0 0 2% 0 !important;
 }
 
 .calcul_result{
-    width:100%;
+    width: 120px;
     height: 100%;
     text-align:right;
     appearance: none;
     color: white;
-    background: black;
+    background: rgb(213, 10, 10);
     font-size: 40px;
     border: none !important;
 }
@@ -47,13 +47,13 @@
 }
 
 .calc_calculs:hover{
-    width:100%;
+    width:90%;
     height:100%;
     font-size:20px;
     background: #bbbbbb;
     appearance: none;
     border: 1.8px dotted grey;
-    color: #2e86c0;
+    color: #9b0628;
 }
 
 .calc_btn{
@@ -84,7 +84,7 @@
     border: 0.5px solid #a0a0a0;
     border-radius: 3%;
     color: white;
-    background: #2e86c0;
+    background: #0f5b8e;
 }
 
 .calc_btn_equal:hover{
@@ -94,7 +94,7 @@
     appearance: none;
     border: 1.8px dotted grey;
     border-radius: 3%;
-    color: white;
+    color: rgb(164, 158, 158);
     background: #186396;
 }
 
@@ -116,6 +116,6 @@
     appearance: none;
     border: 1.8px dotted grey;
     border-radius: 5%;
-    color: white;
-    background: #db3d42;
+    color: rgb(85, 34, 34);
+    background: #b72967;
 }
